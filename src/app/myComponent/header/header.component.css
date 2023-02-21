@@ -1,0 +1,25 @@
+.header{
+    height: 50px;
+    background: rgb(5, 38, 70);
+    display: flex;
+    position: relative;
+   
+    align-items: center;
+}
+.logo{
+    position: absolute;
+    left: 50px;
+    color: white;
+   
+}
+.menu{
+    position: absolute;
+    right: 10%; 
+    display: block;
+    
+  }
+  .menu a{
+      text-decoration: none;
+      color: white;
+      margin: 5px;
+  }
